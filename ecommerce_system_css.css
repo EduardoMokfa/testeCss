@@ -8,7 +8,7 @@ bottom: 10%;
 }
 
     .top-welcome-white {
-        color: white;
+        color: white !important;
         font-weight: bold;
     }
 
