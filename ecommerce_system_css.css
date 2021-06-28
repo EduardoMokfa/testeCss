@@ -60,3 +60,6 @@ color:white;
 position: relative!important;
 bottom: 23%;
 }
+.navbar-main .dropdown-menu {
+background-color:white;
+}
