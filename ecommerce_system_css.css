@@ -6,6 +6,9 @@
 position: relative!important;
 bottom: 10%;
 }
+    .top-welcome p span:not(:last-child) {
+    margin-right: 20px;
+}
 
     .top-welcome-white {
         color: white;
