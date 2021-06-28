@@ -1,6 +1,4 @@
 @charset "utf-8";
-@import url(https://ww2.oiw.com.br/css/vm.min.css?v=1) screen and (min-width: 300px) and (max-width: 889px);
-@import url(https://ww2.oiw.com.br/css/vw.min.css?v=5) screen and (min-width: 900px);
 
 /* code de fonts */
 
@@ -144,4 +142,57 @@
 
 .icon-email:before {
     content: "\f10f";
+}
+
+ #wBusca {
+        width: 45%;
+        height: 35%;
+    }
+
+    .top-welcome-white {
+        color: white;
+        font-weight: bold;
+    }
+
+    .logo {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(120deg) brightness(5000%) contrast(102%);
+    }
+
+    .layout-wrapper .topbar .layout-menu-wrapper ul li>a:hover {
+        color: #00C89B;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container .layout-menu>li>a:hover {
+        border-color: #00C89B;
+    }
+
+    .layout-menu-wrapper {
+        background-color: #248671 !important;
+    }
+.div-cabecalho{
+        height: 45px;
+        background-color: #015240;
+    }
+.top-welcome p{
+font-family: sans-serif,arial;
+font-weight: normal !important;
+position: relative;
+text-align: center;
+bottom: 5px;
+}
+.layout-wrapper .topbar .topbar-main .busca .ui-inputfield {
+    background: none !important;
+     
+    border: 2px solid white !important;
+}
+input::placeholder{
+color:white;
+}
+.avatar{
+position: relative!important;
+ top: -15px;
 }
