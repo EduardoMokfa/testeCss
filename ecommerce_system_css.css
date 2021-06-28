@@ -1,7 +1,11 @@
- #wBusca {
+  #wBusca {
         width: 45%;
         height: 35%;
     }
+#divBusca{
+position: relative!important;
+bottom: 10%;
+}
 
     .top-welcome-white {
         color: white;
@@ -48,5 +52,5 @@ color:white;
 }
 .avatar{
 position: relative!important;
- top: -15px;
+bottom: 23%;
 }
