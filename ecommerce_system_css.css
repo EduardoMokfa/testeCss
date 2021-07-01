@@ -74,10 +74,7 @@ bottom: 10%;
     .layout-wrapper .topbar .layout-menu-wrapper ul li>a:hover {
         color: #00C89B;
     }
-    a{
-    color: white !important;
-      font-weight: bold;
-}
+    
     p {
         font-size: small;
     }
