@@ -50,7 +50,10 @@ a.info-link-a:hover {
 /*****************************************
   alteração no cabeçalho
 ******************************************/
-  #wBusca {
+ .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container ul li > ul {
+    background-color: #248671;
+}
+    #wBusca {
         width: 45%;
         height: 35%;
     }
@@ -78,6 +81,10 @@ bottom: 10%;
     p {
         font-size: small;
     }
+    .div-cabecalho a{
+    color: white !important;
+      font-weight: bold;
+}
 
     .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container .layout-menu>li>a:hover {
         border-color: #00C89B;
@@ -112,4 +119,3 @@ bottom: 23%;
 .entrar{
  bottom: 23%;   
 }
-
